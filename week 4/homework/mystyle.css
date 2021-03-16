@@ -1,0 +1,51 @@
+body {
+    background-color:#5e807f;
+}
+
+nav{
+    margin-top: 15px;
+    
+}
+
+#logo {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#navbarText {
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-text a, .navbar-light .navbar-text a:focus, .navbar-light .navbar-text a:hover {
+    color: white;
+
+}
+
+#wiki {
+    padding-right: 15px;
+}
+
+.jumbotron-text {
+    background-color: #398486bd;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+
+}
+
+#quote-one {
+    font-family:'Merriweather', serif;
+    color: white;
+    weight: 900;
+}
+
