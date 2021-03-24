@@ -8,38 +8,110 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="stylesheet.css">
+
+
+        <!--Google fonts-->
+              <link rel="preconnect" href="https://fonts.gstatic.com">
+              <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap" rel="stylesheet">      
+
     <title>Interactive Form</title>
   </head>
-  <body class="d-flex h-100 text-center text-white bg-dark">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="mb-auto">
-          <div>
-            <h3 class="float-md-start mb-0">Cover</h3>
-            <nav class="nav nav-masthead justify-content-center float-md-end">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Contact</a>
-            </nav>
-          </div>
+  <body class="container">
+    
+      <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span id="logo" class="fs-4">Vya Naturals</span>
+          </a>
+      
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link">Our Story</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active">Check Out</a></li>
+          </ul>
+
         </header>
-      
-        <main class="px-3">
-          <h1>Cover your page.</h1>
-          <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-          <p class="lead">
-            <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
-          </p>
-        </main>
-      
-        <footer class="mt-auto text-white-50">
-          <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
-        </footer>
+      </div>
+    
+    <main>
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading mt-5 py-lg-5">Single, Double or Blended. <span class="text-muted">Quality Espresso Blends. </span></h2>
+                        <p class="lead">Whether you like espresso that tastes like black tea and tangerine jam, or dark chocolate poured over a chunk of butter caramel, a balanced espresso is what we do best.</p>
+                      </div>
+                      <div class="col-md-5">
+                        <picture>
+                              <source media="(min-width:1400px)"srcset="vya-naturals.jpg">
+                              <source media="(min-width:992px)"srcset="nathan-dumlao-ESPRESSO-520.jpg">
+                              <source media="(min-width:992px)"srcset="nathan-dumlao-ESPRESSO-500.jpg">
+                              <source media="(min-width:768px)" srcset="nathan-dumlao-ESPRESSO-300.jpg">
+                              <source media="(min-width:768px)" srcset="nathan-dumlao-ESPRESSO-250.jpg">
+                              <source media="(min-width:768px)" srcset="nathan-dumlao-ESPRESSO-200.jpg">
+                              <img src="vya-naturals.jpg" alt="espresso" class="img-fluid">
+                        </picture>
+                
+                      </div>
+        </div>
+      </div>
+      <!--  <section class="py-5 text-xl-center container-fluid" style="background-image: url(vya-naturals.jpg); center; background-size: cover;">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Album example</h1>
+            <p class="lead text-muted">Here to help introduce nature to your daily skincare routine</p>
+            <p>
+              <a href="#" class="btn btn-light my-2">Shop Exclusive Deals</a>
+              
+          </div>
+        </div>
+      </section>   -->
+
+      <div class="container mt-5">
+        <div  class="row">
+          <h4 id="title"> Formulations for Every Skin Type</h4>
+          <hr>
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 my-3">
+            
+           
+            <div class="col">
+                <div class="card-h-100">
+                    <img class="card-img-top" src="kadarius-seegars.jpg" alt="skink Serum bottle">
+                 <div class="card-body">
+                     <h5 class="card-title">Moisturizers</h5>
+                     <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                 </div>
+                 </div>
+               </div>    
+
+
+            <div class="col">
+                   <div class="card-h-100">
+                   <img class="card-img-top" src="mathilde-langevin.jpg" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Exfoliators</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+                </div>
+                </div>
+
+               <div class="col">
+                <div class="card-h-100">
+                    <img class="card-img-top" src="brooke-lark.jpg" alt="soap bar">
+                 <div class="card-body">
+                     <h5 class="card-title">Cleansers</h5>
+                     <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                 </div>
+                 </div>
+               </div>
+               
+        </div>
+      </div>
+
+  </main>
 
         
-    
-
-    
-
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 

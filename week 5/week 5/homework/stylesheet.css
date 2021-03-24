@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(228, 247, 248);
+}
+
+
+#title {
+    font-family: 'Averia Serif Libre', cursive;
+    font-weight: 700;
+    color: rgb(15, 26, 46);
+}
+
+.card-title {
+    font-family: 'Averia Serif Libre', cursive;
+    font-weight: 700;
+    color: rgb(15, 26, 46);
+}
+
+#logo {
+    font-family: 'Averia Serif Libre', cursive;
+    font-weight: 900;
+    color: rgb(15, 26, 46);
+}
