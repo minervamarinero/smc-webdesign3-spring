@@ -15,6 +15,12 @@
         <!--playfair display-->
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+             <!--Yeseva-->
+             <link rel="preconnect" href="https://fonts.gstatic.com">
+             <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+         <!--monsterrat-->
+              <link rel="preconnect" href="https://fonts.gstatic.com">
+             <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Yeseva+One&display=swap" rel="stylesheet">
 
         <!--my stylesheet-->
         <link rel="stylesheet" href="mystyle.css">
@@ -23,37 +29,46 @@
        
 
 
-    <title>Hot Life Cycle Inc. - Midterm</title>
+    <title>Hot Life Cycle Inc. - Midterm  products page </title>
   </head>
   <body>
-            <header class="container d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-                
-                
+            <!--------------------Navigation goes here ---------------------->
 
-                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <nav class="navbar navbar-expand-lg">
+
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-contols="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggle-icon"></span>
+                </button>
+                <a class="navbar-brand text-dark justify-content-start mx-2">
                     <image src="hot-air-balloon-48.png"></image>
-                    <span class="fs-4 px-2 logo">Hot Life Cycle Inc.</span>
+                  
+                    <span id=nav-logo class="fs-4 px-2">Hot Life Cycle Inc.</span>
                 </a>
-            
-                <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Balloon Rides</a></li>
-                    <li class="nav-item"><a href="team.html" class="nav-link">The Team</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                </ul>
-            </header>
+                <span class="justify-content-end mx-2">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                      <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                      <li class="nav-item"><a href="Products.html" class="nav-link">Balloon Rides</a></li>
+                      <li class="nav-item"><a href="team.html" class="nav-link">The Team</a></li>
+                      <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                  </ul>
+                </div></span>
+              </div>
+            </nav>
 
     
 
-            <!--carousal-->
+            <!----------------------------------------------------- carousal starts here --------------------------------------->
 
-            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <section id="myCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <!--carousel image 1-->
+
+                <!------------- carousel image 1 -------------------->
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <picture>
@@ -71,7 +86,7 @@
                     </div>
                   </div>
 
-                  <!--carousel image 2-->     
+                  <!------------- carousel image 2 ----------------->     
                   <div class="carousel-item">
                     <picture>
                       <source media="(min-width:1400px)"srcset="aaron-burden.jpg">                      
@@ -87,7 +102,7 @@
                     </div>
                   </div>
 
-                  <!--coursel image 3-->
+                  <!------------- coursel image 3 ---------------->
                   <div class="carousel-item">
                       <picture>
                           <source media="(min-width:1400px)" srcset="will-smith-revised.png">
@@ -108,51 +123,47 @@
                   <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+              </section>
 
 
-              <!--(note to self: dont get lost, this is the row beneath carousal)-->
-           
-
-          
-              
+              <!-- ------------------------------- Cards section begins here  ------------------------------------------>
+ 
             <div class="container">
-              <h2 class="pb-3 border-bottom my-5">Custom cards</h2>
+              <h2 class="pb-3 border-bottom my-5">Experience scenic landscapes from up above!</h2>
               <div class="row row-cols-1 row-cols-md-3">
-                  
-               
-               <div class="col">
-                      <div class="card-h-100">
+
+                <div class="col">
+                    <div class="card-h-100">
                       <img class="card-img-top" src="canmandawe-1920x1258.png" alt="kitten">
-                   <div class="card-body">
-                       <h5 class="card-title">Kitten</h5>
-                       <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                      <div class="card-body">
+                        <h5 class="card-title">Balloon Festivals</h5>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
                    </div>
-                   </div>
-                   </div>
+                </div>
                    
 
                   <div class="col">
                    <div class="card-h-100">
-                       <img class="card-img-top" src="rusty-watson-SVPnVKsGWX8-unsplash.jpg" alt="kitten">
-                    <div class="card-body">
-                        <h5 class="card-title">Kitten</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
-                    </div>
+                        <img class="card-img-top" src="rusty-watson-SVPnVKsGWX8-unsplash.jpg" alt="kitten">
+                      <div class="card-body">
+                        <h5 class="card-title">Private tours</h5>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                      </div>
                     </div>
                   </div>
 
 
                   <div class="col">
                    <div class="card-h-100">
-                       <img class="card-img-top" src="sunset-2.png" alt="kitten">
-                    <div class="card-body">
-                        <h5 class="card-title">Kitten</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
-                    </div>
+                        <img class="card-img-top" src="sunset-2.png" alt="kitten">
+                      <div class="card-body">
+                        <h5 class="card-title">Romantic Sunsets for Two</h5>
+                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
                     </div>
                   </div>
                   </div>

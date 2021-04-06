@@ -15,6 +15,12 @@
         <!--playfair display-->
             <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+        <!--Yeseva-->
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+        <!--monsterrat-->
+             <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Yeseva+One&display=swap" rel="stylesheet">
 
         <!--my stylesheet-->
         <link rel="stylesheet" href="mystyle.css">
@@ -23,15 +29,17 @@
         <link rel="html" href="Products.html">
 
 
-    <title>Hot Life Cycle Inc. - Midterm</title>
+    <title>Hot Life Cycle Inc. - Midterm   home page</title>
   </head>
   <body>
-            <!-- alert -->
+            <!----------------------------------- alert ---------------------------->
+
             <div class="alert alert-success alert-dismissible fade show" role="alert">
                 Click on <a href="https://outdoortroop.com/hot-air-balloon-safety-statistics-how-safe-is-it-really/#:~:text=In%20the%20aviation%20world%2C%20hot,reported%20in%20the%20United%20States." class="alert-link">outdoortroop.com</a> to find out more information on hot air balloon safety.
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>    
-    <!-- NAVIGATION BAR ---- WORKING PROGRESS-->
+            
+            <!----------------------------- NAVIGATION BAR ---- WORKING PROGRESS ------------------------------------------->
 
             <nav class="navbar navbar-expand-lg">
 
@@ -42,7 +50,7 @@
                 <a class="navbar-brand text-dark justify-content-start mx-2">
                     <image src="hot-air-balloon-48.png"></image>
                   
-                    <span class="fs-4 px-2">Hot Life Cycle Inc.</span>
+                    <span id=nav-logo class="fs-4 px-2">Hot Life Cycle Inc.</span>
                 </a>
                 <span class="justify-content-end mx-2">
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -50,28 +58,33 @@
                       <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
                       <li class="nav-item"><a href="Products.html" class="nav-link">Balloon Rides</a></li>
                       <li class="nav-item"><a href="team.html" class="nav-link">The Team</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                      <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                   </ul>
                 </div></span>
               </div>
             </nav>
             
     
-            <!--jumbotron-->
+            <!--------------------------------------------- jumbotron starts here ---------------------------------------------------->
+
             <div class="p-5 mb-4 bg-light rounded-3" style="background-image: url(carlos-aranda-revised.jpg); center; background-size: cover;">
-                <div class="container-fluid py-5">
-                  <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-                  <p class="col-md-8 fs-4 py-3">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-                  <button class="btn btn-primary btn-lg" type="button">Example button</button>
+                <div class="container-fluid py-5 text-white">
+                  <h1 id="home-jumbotron" class="display-5 fw-bold">A one of a kind experience! </h1>
+                  <p id="home-j-text" class="col-md-8 fs-4 py-3">Hot air ballooning is one of the most magical experiences you can give to or share with someone special. Few activities have the perfect combination of romance and adventure. Safe for all ages. Hot air balloons are large, colorful and beautiful - no wonder they are the most photographed aircraft ever. </p>
+                  <button class="btn btn-primary btn-lg" type="button">Reservations</button>
                 </div>
               </div>
 
-            <hr class="featurette-divider">
-            <div class="container my-4">
+            
+              
+            <!------------------------------------------------ FEATURETTES START HERE ------------------------------------------------->
+            
+              <div id="home-featurettess" class="container my-4">
+              <!--------------featurette one------------->
             <div class="row featurette">
                 <div class="col-md-7">
-                  <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                    <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+                  <h2 class="py-5 px-3">Fun, Safe, Thrilling! <span class="text-muted">It’ll blow your mind.</span></h2>
+                    <p class="lead px-3">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
                 </div>
             <div class="col-md-5">
                   <picture>
@@ -89,9 +102,11 @@
                 
             <hr class="featurette-divider my-3">
 
+            <!-------------- featurette two ------------->
+
             <div class="row featurette">
               <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+                <h2 class="featurette-heading py-5">Magical.<span class="text-muted">Just Magical.</span></h2>
                 <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
               </div>
               <div class="col-md-5 order-md-1">

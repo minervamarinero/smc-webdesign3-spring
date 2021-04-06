@@ -1,8 +1,22 @@
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
 body {
-  background-color: rgb(206, 220, 247);
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  background-color: rgb(196, 217, 245);
 }
 
 
+
+#nav-logo {
+  font-family: 'Yeseva One', cursive;
+}
+
+.nav-item {
+  font-family: 'Montserrat', sans-serif;
+  weight: 400;
+}
 
 
 footer {
@@ -12,13 +26,31 @@ footer {
     padding: 2rem;
 }
 
+/* home page css */
+
+#home-jumbotron {
+  font-family: 'Yeseva One', cursive;
+}
+
+#home-j-text {
+  font-family: 'Montserrat', sans-serif;
+  weight: 400;
+}
+
+#home-featurettess {
+  font-family: 'Montserrat', sans-serif;
+  weight: 400;
+}
 
 
 
-/* start of products page css */
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
+
+
+/* start of products page css 
+---------------------------------------------------*/
+
+/* CUSTOMIZE THE CAROUSEL */
 
 /* Carousel base class */
 .carousel {
@@ -51,5 +83,41 @@ footer {
 
 
   /* team page - css */
+  
+  /* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+.featurette {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.meet-team {
+  border-bottom: black;
+}
+
+
+/*----------- about page -------------*/
+@media (min-width: 768px) {
+  .column-count-md-2 {column-count: 2;}
+}
+
+
+
+
 
   
