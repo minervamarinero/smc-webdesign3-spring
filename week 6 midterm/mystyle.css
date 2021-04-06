@@ -34,13 +34,16 @@ footer {
 
 #home-j-text {
   font-family: 'Montserrat', sans-serif;
-  weight: 400;
+  
 }
 
-#home-featurettess {
+#home-f {
   font-family: 'Montserrat', sans-serif;
-  weight: 400;
+  font-weight: 600;
+  font-size: 2rem;
 }
+
+
 
 
 
@@ -79,6 +82,28 @@ footer {
     }
   }  
 
+  .carousel-caption {
+    font-family: 'Yeseva One', cursive;
+  }
+
+  #center-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+  }
+
+  .card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    font-size: 1.60rem;
+  }
+
+  .card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    
+  }
+
 
 
 
@@ -89,6 +114,7 @@ footer {
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 .marketing h2 {
   font-weight: 400;
@@ -110,10 +136,34 @@ footer {
   border-bottom: black;
 }
 
+#team-j-caption {
+  font-family: 'Yeseva One', cursive;
+}
+
+#about-featurettee {
+  font-family: 'Montserrat', sans-serif;
+}
 
 /*----------- about page -------------*/
 @media (min-width: 768px) {
   .column-count-md-2 {column-count: 2;}
+}
+
+#ourstory {
+  font-family: 'Yeseva One', cursive;
+}
+
+#ourstory-p {
+  font-family: 'Montserrat', sans-serif;
+  weight: 300;
+}
+
+.blog-post {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#quote-one {
+  font-family: 'Yeseva One', cursive;
 }
 
 
