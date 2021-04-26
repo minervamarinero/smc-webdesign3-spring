@@ -4,30 +4,88 @@ header {
     display: flex;
     flex-direction: column;
     align-items:center;
-    background-image: linear-gradient(0deg, rgb(15, 104, 238) 50%, rgb(255, 215, 14) 50%, rgb(232, 253, 45) 25%); 
+    background-image: linear-gradient(#8ec5fc, #e0c3fc);
 }
 
+h1 {
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    color: black;   
+}
  
 ul {
     list-style:none;
     padding: 0;
     display: flex;
+    font-family: lato; 
 }
 
 li {
-    margin: 0 10px;
-   
-    
+    margin: 0 10px;   
 }
 
-h1 {
-    cursor: pointer;
-}
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
-    color:cornflowerblue;
+    color:rgb(250, 234, 9);
+}
+
+
+/*   CSS for Grid  begins here   */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+ 
+
+
+/* 
+#dress {
+   
+}
+
+#ocean {
+    
+}
+
+#coke {
+   
+}
+
+#face {
+   
+}
+*/
+
+
+/* Media query Begins here */
+
+@media (min-width: 900px) {
+   
+   header {
+     text-align: center;
+       
+   }
+
+   header ul {
+       justify-content: center;
+   }
+.row {
+    align-content:space-between;
+}
+
+.col3 {
+    flex: 100%;
+    
+    
+}
+
+
 }
