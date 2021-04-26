@@ -77,15 +77,5 @@ a:hover {
    header ul {
        justify-content: center;
    }
-.row {
-    align-content:space-between;
-}
-
-.col3 {
-    flex: 100%;
-    
-    
-}
-
 
 }
