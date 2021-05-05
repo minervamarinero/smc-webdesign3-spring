@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: #fac003;
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+}
+
+.container header {
+    margin: 10px;
+    padding: 150px 10px 10px 10px;
+    position: relative;
+    display: block;
+    text-align: center;
+
+}
+
+.container header h1 {
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+    position: relative;
+    font-weight: 700;
+    color: #b82274;
+}
+
+.ia-container {
+    width: 685px;
+    margin:20px auto;
+    overflow: hidden;
+}
+
+.ia-container figure {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width:335px;
+    margin: 0;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.6);
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.ia-container > figure {
+    position: relative;
+    left:  0 !important;
+}
+
+.ia-container img{
+    display: block;
+    width: 100%;
+
+}
+
+.ia-container input {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    cursor:pointer;
+    border: 0;
+    padding: 0;
+    opacity: 0;
+    z-index: 100;
+    appearance: none;
+}
+
+.ia-container input:checked {
+    width: 5px;
+    left: auto;
+    right:0px;
+
+}
+
+.ia-container input:checked ~ figure {
+    transition: all 0.7s ease-in-out;
+    left: 335px;
+}
+
+.ia-container figcaption {
+    width:100%;
+    height: 100%;
+    background: rgba(87, 73, 81, 0.1);
+    position: absolute;
+    top: 0;
+    transition: all 0.2s linear;
+}
+
+.ia-container figcaption span {
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    left: 20px;
+    text-align: center;
+    background: rgba(249, 166, 15, 0.9);
+    line-height: 18px;
+    opacity: 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 15px;
+    color: #fff;
+}
+
+.ia-container input:checked + figcaption span{
+    transition: all 0.4s ease-in-out 0.5s;
+    opacity: 1;
+    top: 65%;
+
+}
