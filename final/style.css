@@ -130,12 +130,11 @@
 
 /* final row pg 1*/
 @media (min-width:768px) {
-    .last-row-c1 {
-        width: 38rem;
-        height:30rem;
-    }
+  
 
     .logo {
         font-size: 2rem;
     }
 }
+
+
