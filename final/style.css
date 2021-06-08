@@ -1,3 +1,22 @@
+body {
+    background: white;
+    background-image: linear-gradient(90deg, rgba(195, 238, 183, 0.50) 0%, rgba(197, 203, 255, 0.50) 100%);
+    animation: bg-animation 5s infinite alternate;
+    background-size: 400%;
+}
+
+@keyframes bg-animation {
+    0% { background-position: left;}
+       
+    
+    100% {background-position: right;}
+        
+    
+}
+
+
+
+
 .logo {
     font-family: 'Playfair Display', serif;
     font-size: 1rem;
@@ -6,8 +25,9 @@
 
 }
 
-.logo a:link a:visited{
+.logo a:link, a:visited {
     text-decoration: none;
+    color:black;
 
 }
 
@@ -117,9 +137,10 @@
 
 
 
+/* 2nd cards main page  */
+
 
 /* ----------------- final row pg1 begins here -----------------*/
-
 
 .last-row-c1 {
     width: 32rem;
