@@ -29,11 +29,14 @@
   
 }
 
-.carousel bottom-left {
+.carousel-content {
     position: absolute;
-    bottom: 10px;
-    left: 16px;
-}
+    bottom: 10%;
+    left: 5%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  }
 
 .carousel__image {
     width: 100%;
@@ -42,7 +45,7 @@
 }
 
 .carousel__track-container {
-    background: lightgreen;
+    /* background: lightgreen; */
     height: 100%;
     position: relative;
     overflow: hidden;
@@ -141,6 +144,9 @@
 }
 
 
+
+
+
 /* responsive web begins here */
 
 /* final row pg 1*/
@@ -153,3 +159,29 @@
 }
 
 
+/* CSS FOR ACTIVER WEAR BEGINS HERE */
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #618ca0;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
